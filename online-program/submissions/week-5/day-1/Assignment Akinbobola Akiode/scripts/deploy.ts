@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-    console.log("🚀 Deploying contracts to Lisk Sepolia...\n");
+    console.log("🚀 Deploying contracts to Ethereum Sepolia...\n");
     
     const [deployer] = await ethers.getSigners();
     const ownerAddress = "0x838Abf92E994e088e641399e91AcE43514038b90";
@@ -43,10 +43,10 @@ async function main() {
     console.log(`StakingContract: ${stakingContractAddress}`);
     console.log(`Owner: ${ownerAddress}\n`);
     
-    console.log("🔗 Verify contracts on Lisk Sepolia Block Explorer:");
-    console.log(`https://sepolia-blockscout.lisk.com/address/${token1Address}`);
-    console.log(`https://sepolia-blockscout.lisk.com/address/${token2Address}`);
-    console.log(`https://sepolia-blockscout.lisk.com/address/${stakingContractAddress}\n`);
+    console.log("🔗 Verify contracts on Etherscan:");
+    console.log(`https://sepolia.etherscan.io/address/${token1Address}`);
+    console.log(`https://sepolia.etherscan.io/address/${token2Address}`);
+    console.log(`https://sepolia.etherscan.io/address/${stakingContractAddress}\n`);
     
     console.log("💰 Initial Token1 supply: 1,000,000 tokens");
     console.log("💰 Initial Token2 supply: 0 tokens (minted when staking)");

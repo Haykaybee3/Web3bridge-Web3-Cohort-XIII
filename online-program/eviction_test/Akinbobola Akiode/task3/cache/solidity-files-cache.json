@@ -1,0 +1,150 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/akinbobolaakiode/Documents/Web3bridge-Web3-Cohort-XIII/online-program/eviction_test/Akinbobola Akiode/task3/contracts/ErrorCodes.sol": {
+      "lastModificationDate": 1755532544846,
+      "contentHash": "426d485f97ba0a8aa9d12f655d62e3f7",
+      "sourceName": "contracts/ErrorCodes.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": []
+    },
+    "/Users/akinbobolaakiode/Documents/Web3bridge-Web3-Cohort-XIII/online-program/eviction_test/Akinbobola Akiode/task3/contracts/Lock.sol": {
+      "lastModificationDate": 1755532969107,
+      "contentHash": "46254cdb0d11dfaf0f8b298a67c49d0e",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    },
+    "/Users/akinbobolaakiode/Documents/Web3bridge-Web3-Cohort-XIII/online-program/eviction_test/Akinbobola Akiode/task3/contracts/LudoGame.sol": {
+      "lastModificationDate": 1755532566049,
+      "contentHash": "c201967372b7278515205f59e7f66e0a",
+      "sourceName": "contracts/LudoGame.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ErrorCodes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "IERC20",
+        "LudoGame"
+      ]
+    },
+    "/Users/akinbobolaakiode/Documents/Web3bridge-Web3-Cohort-XIII/online-program/eviction_test/Akinbobola Akiode/task3/contracts/LudoToken.sol": {
+      "lastModificationDate": 1755532504563,
+      "contentHash": "e64bba81a9c86c1bf85a5bd5810702a5",
+      "sourceName": "contracts/LudoToken.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "LudoToken"
+      ]
+    }
+  }
+}
